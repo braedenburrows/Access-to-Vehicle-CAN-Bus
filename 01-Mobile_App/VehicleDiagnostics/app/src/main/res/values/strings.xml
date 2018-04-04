@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Vehicle Diagnostics</string>
+    <string name="title">Vehicle \nCAN-Bus</string>
+
+    <string name="ref">Refresh Rate (ms)</string>
+    <string name="iter">Display After</string>
+    <string name="rpm">RPM</string>
+    <string name="throttle">Throttle</string>
+    <string name="fuel">Fuel</string>
+    <string name="volts">Voltage</string>
+
+
+    <string name="noCodes">Number of DTCs:</string>
+    <string name="dash">Dashboard</string>
+    <string name="diag">Diagnostic</string>
+    <string name="exit">Exit</string>
+    <string name="bt">Connected</string>
+    <string name="back">Back to Menu</string>
+
+    <string-array name="ratesArr">
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="iterationsArr">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+</resources>

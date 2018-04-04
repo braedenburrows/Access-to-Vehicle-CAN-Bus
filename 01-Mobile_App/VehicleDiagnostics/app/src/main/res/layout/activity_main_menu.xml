@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.bdev.burrows.vehiclediagnostics.MainMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@android:color/background_dark"
+            android:fontFamily="@font/faster_one"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/title"
+            android:textColor="@android:color/background_light"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/dash"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_dark"
+                android:onClick="dashboard"
+                app:srcCompat="@drawable/dashboard_btn" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_dark"
+                android:onClick="diagnostics"
+                app:srcCompat="@drawable/engine_btn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_dark"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:onClick="dashboard"
+                android:text="@string/dash"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_dark"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:onClick="diagnostics"
+                android:text="@string/diag"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/btImage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_dark"
+                app:srcCompat="@drawable/bluetooth_ligh_white" />
+
+
+            <ImageButton
+                android:id="@+id/exit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_dark"
+                android:onClick="exitApp"
+                app:srcCompat="@drawable/exit_btn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/bttext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_dark"
+                android:gravity="center_horizontal"
+                android:text="@string/bt"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/exittext"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_dark"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:onClick="exitApp"
+                android:text="@string/exit"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:orientation="horizontal"
+            android:weightSum="1"></LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
