@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Burrows/Desktop/Project/VehicleDiagnostics/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/Burrows/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8419ad2815d8ea202fe925120f622762/res/values/values.xml",
@@ -23,22 +23,22 @@
                     }
                 },
                 {
-                    "source": "/Users/Burrows/Desktop/Project/VehicleDiagnostics/app/src/main/res/values/strings.xml",
+                    "source": "/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "27,19,1,17,16,13,14,15,8,5,12,4,6,7,2,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "834,652,16,605,564,439,482,526,305,176,387,126,223,259,73,343",
-                        "endLines": "34,25,1,17,16,13,14,15,8,5,12,4,6,7,2,9",
-                        "endColumns": "19,19,56,45,40,42,43,37,37,46,51,49,35,45,51,41",
-                        "endOffsets": "1032,828,68,646,600,477,521,559,338,218,434,171,254,300,120,380"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "368"
                     },
                     "to": {
-                        "startLines": "2,10,589,590,591,592,593,594,595,596,597,598,599,602,603,604",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,258,53887,53944,53990,54031,54074,54118,54156,54194,54241,54293,54343,54503,54549,54601",
-                        "endLines": "9,16,589,590,591,592,593,594,595,596,597,598,599,602,603,604",
-                        "endColumns": "19,19,56,45,40,42,43,37,37,46,51,49,35,45,51,41",
-                        "endOffsets": "253,434,53939,53985,54026,54069,54113,54151,54189,54236,54288,54338,54374,54544,54596,54638"
+                        "startLines": "610",
+                        "startColumns": "4",
+                        "startOffsets": "55085",
+                        "endLines": "615",
+                        "endColumns": "12",
+                        "endOffsets": "55399"
                     }
                 },
                 {
@@ -61,42 +61,6 @@
                     }
                 },
                 {
-                    "source": "/Users/Burrows/Desktop/Project/VehicleDiagnostics/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "143,144,145",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "7041,7087,7134",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "7082,7129,7180"
-                    }
-                },
-                {
-                    "source": "/Users/Burrows/Desktop/Project/VehicleDiagnostics/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "368"
-                    },
-                    "to": {
-                        "startLines": "610",
-                        "startColumns": "4",
-                        "startOffsets": "55085",
-                        "endLines": "615",
-                        "endColumns": "12",
-                        "endOffsets": "55399"
-                    }
-                },
-                {
                     "source": "/Users/Burrows/.gradle/caches/transforms-1/files-1.1/speedviewlib-1.1.7.aar/02bc749201b3db7d84fb3dfcdd4017c4/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,8,9,10,11",
@@ -113,6 +77,25 @@
                         "endLines": "109,110,114,115,116,117,118",
                         "endColumns": "54,46,11,57,57,53,50",
                         "endOffsets": "4853,4900,5045,5103,5161,5215,5266"
+                    }
+                },
+                {
+                    "source": "/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "27,19,1,17,16,13,14,15,8,5,12,4,6,7,2,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "834,652,16,605,564,439,482,526,305,176,387,126,223,259,73,343",
+                        "endLines": "34,25,1,17,16,13,14,15,8,5,12,4,6,7,2,9",
+                        "endColumns": "19,19,56,45,40,42,43,37,37,46,51,49,35,45,51,41",
+                        "endOffsets": "1032,828,68,646,600,477,521,559,338,218,434,171,254,300,120,380"
+                    },
+                    "to": {
+                        "startLines": "2,10,589,590,591,592,593,594,595,596,597,598,599,602,603,604",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,258,53887,53944,53990,54031,54074,54118,54156,54194,54241,54293,54343,54503,54549,54601",
+                        "endLines": "9,16,589,590,591,592,593,594,595,596,597,598,599,602,603,604",
+                        "endColumns": "19,19,56,45,40,42,43,37,37,46,51,49,35,45,51,41",
+                        "endOffsets": "253,434,53939,53985,54026,54069,54113,54151,54189,54236,54288,54338,54374,54544,54596,54638"
                     }
                 },
                 {
@@ -149,6 +132,23 @@
                         "endLines": "167,168,500,501,502,503,504,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,537,538,544,545,549,550,551,557,601,1872,1876,1878,1884,1886,2024,2025",
                         "endColumns": "68,62,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66",
                         "endOffsets": "8536,8599,48110,48178,48250,48320,48381,49226,49287,49349,49413,49475,49536,49604,49704,49764,49830,49903,49972,50029,50081,50143,50668,50744,51018,51053,51229,51264,51299,51644,54498,138727,138928,139104,139488,139683,150648,150715"
+                    }
+                },
+                {
+                    "source": "/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "143,144,145",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7041,7087,7134",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "7082,7129,7180"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Burrows/Desktop/Project/VehicleDiagnostics/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/Burrows/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8419ad2815d8ea202fe925120f622762/res/values-da/values-da.xml",

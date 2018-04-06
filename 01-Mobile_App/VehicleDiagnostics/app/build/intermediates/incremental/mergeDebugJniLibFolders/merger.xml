@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/Burrows/Desktop/Project/VehicleDiagnostics/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/Burrows/Desktop/Project/VehicleDiagnostics/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/src/debug/jniLibs"/></dataSet></merger>
