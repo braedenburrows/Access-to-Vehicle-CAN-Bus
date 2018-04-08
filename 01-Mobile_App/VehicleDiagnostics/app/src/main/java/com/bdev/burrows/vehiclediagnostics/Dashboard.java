@@ -37,7 +37,6 @@ public class Dashboard extends AppCompatActivity {
 
     private static ArrayList<Integer> fuelValues;
 
-
     //Spinners to control user input for refresh rate and number of iterations before displaying data
     private Spinner refrestRate;
     private  Spinner iterations;
@@ -239,7 +238,10 @@ public static class DashboardReceived extends Handler {
             pointerSpeedometer.speedTo(speed, 500);
             rpmTv.setText(rpm+"");
             throttleTv.setText(throttle + "%");
-            fuelTv.setText(getAvg(fuelValues)+ "%");
+
+            if(difference(fuelValues)) {
+                fuelTv.setText(getAvg(fuelValues) + "%");
+            }
             batteryTv.setText(battery+"V");
 
         } else if(fuelValues.size() > iterationValue){
@@ -248,6 +250,17 @@ public static class DashboardReceived extends Handler {
         }
 
 
+    }
+
+    private static boolean difference(ArrayList<Integer> values){
+        boolean result = true;
+
+        for(int i = 0; i < iterationValue-1;i++){
+            if(Math.abs(values.get(i) - values.get(i+1)) >= 2) {
+                result = false;
+            }
+        }
+        return result;
     }
 
     //function to get the average from the arraylist of values

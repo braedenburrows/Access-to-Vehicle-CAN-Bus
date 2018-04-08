@@ -1,0 +1,4 @@
+#Sun Apr 08 16:24:56 PDT 2018
+base.0=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/2
+renamed.0=classes.dex
+file.0=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex
