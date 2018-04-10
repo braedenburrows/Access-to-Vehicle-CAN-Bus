@@ -29,11 +29,7 @@ public class BTManager extends Application {
     private String address;
     public ConnectingThread connectingThread;
     private android.os.Handler handler;
-    //boolean hasStream = false;
     private Connection connection;
-    //protected boolean arduinoStatus;
-
-
 
 
     @Override
