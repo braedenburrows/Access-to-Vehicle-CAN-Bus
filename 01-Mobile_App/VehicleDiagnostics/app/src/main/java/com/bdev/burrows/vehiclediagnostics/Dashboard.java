@@ -95,7 +95,7 @@ public class Dashboard extends AppCompatActivity {
 
         refreshAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         refrestRate.setAdapter(refreshAdapter);
-        refrestRate.setSelection(2);
+        refrestRate.setSelection(0);
         refrestRate.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
