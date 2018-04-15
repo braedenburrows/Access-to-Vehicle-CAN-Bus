@@ -1,10 +1,8 @@
 package com.bdev.burrows.vehiclediagnostics;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AlertDialog;
@@ -16,12 +14,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
-
 import com.github.anastr.speedviewlib.PointerSpeedometer;
-
-import java.lang.ref.WeakReference;
-import java.lang.reflect.Array;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 
@@ -33,7 +26,6 @@ public class Dashboard extends AppCompatActivity {
     private static StringBuilder sb = new StringBuilder();
     private static Context context;
     private static  DashboardReceived handler;
-    private static DecimalFormat df = new DecimalFormat("#.00");
 
     private static ArrayList<Integer> fuelValues;
 
@@ -71,10 +63,9 @@ public class Dashboard extends AppCompatActivity {
         fuelTv.setText("0%");
         batteryTv.setText("0");
 
-
         //Setting values for variables
         iterationValue = 10;
-        refreshTime = 500;
+        refreshTime = 100;
 
         //Set up the arraylist to hold the fuel values sent from the arduino
         fuelValues = new ArrayList<>();
@@ -183,8 +174,7 @@ public static class DashboardReceived extends Handler {
 
                             }
                         });
-
-
+                //Lost BT connection.
                 noBTDialog.show();
                 break;
         }
@@ -196,10 +186,6 @@ public static class DashboardReceived extends Handler {
     public static void write(String msg){
     ((BTManager) context).write(msg + getRefreshCode(refreshTime));
 }
-
-    public boolean hasStream(){
-        return ((BTManager) this.getApplicationContext()).steamReady();
-    }
 
 //Method to convert user refresh to single int for arduino
     private static int getRefreshCode(int v){
@@ -312,6 +298,7 @@ public static class DashboardReceived extends Handler {
     @Override
     protected void onPause() {
         super.onPause();
+        //Send value to the arduino to stop it from sending data.
         write("0");
     }
 

@@ -152,7 +152,7 @@ public class Diagnostics extends AppCompatActivity {
                                 }
                             });
 
-
+                    //Lost BT connection
                     noBTDialog.show();
                     break;
 

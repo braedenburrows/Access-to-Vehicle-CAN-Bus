@@ -31,11 +31,13 @@ public class BTManager extends Application {
     private android.os.Handler handler;
     private Connection connection;
 
+    //Name of the bluetooth module.
+    private final String arduinoName = "ArduinoBT";
+
 
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.d("LOG", "Application running");
         bluetooth = BluetoothAdapter.getDefaultAdapter();
         uuid = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
         isConnected = false;
@@ -97,10 +99,9 @@ public class BTManager extends Application {
             if (BluetoothDevice.ACTION_FOUND.equals(action)) {
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
                 String deviceName = device.getName() == null ? "No name found" : device.getName();
-                Log.d("LOG", "found a device " + deviceName);
 
                 //The arduino is not yet connected and it is discovered in the area.
-                if (deviceName.equals("ArduinoBT") && !isConnected) {
+                if (deviceName.equals(arduinoName) && !isConnected) {
 
                     address = device.getAddress();
                     bluetooth.cancelDiscovery();
@@ -109,7 +110,7 @@ public class BTManager extends Application {
                      connection = new Connection();
                      connection.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 
-                } else if(deviceName.equals("ArduinoBT")){
+                } else if(deviceName.equals(arduinoName)){
                     //The arduino is in range and is already paired.
                     //Try to open a communication stream.
                     address = device.getAddress();
@@ -140,7 +141,6 @@ public class BTManager extends Application {
             connection.cancel(true);
             //Check if it is already paired. Can called method btPoweredOn instead
             pairedDevicesList();
-            Log.d("LOG", "Searching....");
             try {
                 unregisterReceiver(mReceiver);
             }catch (Exception e){
@@ -169,12 +169,10 @@ public class BTManager extends Application {
     //Check if the arduino is already paired.
     private void pairedDevicesList() {
         Set<BluetoothDevice> paired = bluetooth.getBondedDevices();
-        Log.d("LOG", "Pairs: " + paired.size());
 
         if (paired.size() > 0) {
             for (BluetoothDevice bt : paired) {
-                Log.d("LOG", "device :  " + bt.getAddress());
-                if(bt.getName().equals("ArduinoBT")){
+                if(bt.getName().equals(arduinoName)){
                     isConnected = true;
                 }
             }
@@ -246,7 +244,7 @@ public class BTManager extends Application {
         }
     }
 
-    // Connection thread is used to listen to and send messages to/from the arduinoBT device
+    // Connection thread is used to listen to/send messages to/from the arduino device
     public final class ConnectingThread extends Thread {
         private final InputStream arduinoInStream;
         private final OutputStream arduinoOutStream;

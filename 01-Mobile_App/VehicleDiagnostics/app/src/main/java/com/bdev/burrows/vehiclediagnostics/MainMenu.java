@@ -136,7 +136,6 @@ public class MainMenu extends AppCompatActivity {
     }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 //Onclick method to take the user to the DTC page
     public void diagnostics(View v){
         //Only allows user to navigate to next page if there is an open stream and the arduino is ready.
@@ -213,7 +212,6 @@ public class MainMenu extends AppCompatActivity {
             ((BTManager) context.getApplicationContext()).write(msg + 3);
         }
     }
-
 
     //Connect to the arduino and update the UI accordingly.///////////////////////////////////////////////
     public static int counter = 0;

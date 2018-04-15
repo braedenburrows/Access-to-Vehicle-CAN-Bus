@@ -5,8 +5,11 @@ Authors:
 	Braeden Burrows
 
 Description:
-	Android application that is used with an arduino, mounted with a can bus sheild and obd-II cable, running 
-	the Sketch_mech_CAN program to display both real-time data and diagnostic trouble codes.
+	Android application that is used with an arduino, mounted with a can bus shield and obd-II cable, running 
+	the Sketch_mech_CAN program to display both real-time data and diagnostic trouble codes. The android application
+	uses a constant value for the bluetooth module. If the name of the bluetooth module changes update the value in 
+	the bluetooth manager class. 
+	 
 	
 Application:
 	The application has four classes.
