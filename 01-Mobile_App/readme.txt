@@ -4,6 +4,9 @@ Authors:
 	Kyle Booker
 	Braeden Burrows
 
+Date Modified:
+	April 15, 2018
+
 Description:
 	Android application that is used with an arduino, mounted with a can bus shield and obd-II cable, running 
 	the Sketch_mech_CAN program to display both real-time data and diagnostic trouble codes. The android application
@@ -22,14 +25,14 @@ Application:
 	   onclick methods that check if a connection has been established before you can navigate to the next page. The 
 	   methods are document in the code.
 		
-	3. Dashboard class. This class is used to display real-time data from the arduino to the user. It sets the handler for
-	   this activity in the bluetooth manager class so that the UI connected to the Dashboard class can be updated 
+	3. Dashboard class. This class is used to display real-time data from the arduino to the user. It sets the handler 
+	   for this activity in the bluetooth manager class so that the UI connected to the Dashboard class can be updated 
 	   when data is received or the bluetooth connection has been lost. The methods are document in the code.
 		
 	4.Diagnostic Page. This page is used to display the diagnostic trouble codes sent from the arduino to the user. It 
-	  sets the handler for this activity in the bluetooth manager class so that the UI connected to the Diagnostic class 
-	  can be updated when data is received or the bluetooth connection has been lost. The methods are document in the 
-	  code.
+	  sets the handler for this activity in the bluetooth manager class so that the UI connected to the Diagnostic 
+	  class can be updated when data is received or the bluetooth connection has been lost. The methods are document in
+         the code.
 		
 	
 

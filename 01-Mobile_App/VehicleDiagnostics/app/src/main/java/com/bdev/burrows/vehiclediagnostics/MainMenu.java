@@ -149,9 +149,6 @@ public class MainMenu extends AppCompatActivity {
                     write("m");
                 } else {
                     Toast.makeText(getApplicationContext(), "Please ensure that the Arduino is in range and powered on.", Toast.LENGTH_SHORT).show();
-                    tryingToConnect = true;
-                    gettingConnection = new GettingConnection();
-                    gettingConnection.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
                 }
             }
         } else {
@@ -172,9 +169,6 @@ public class MainMenu extends AppCompatActivity {
                     write("m");
                 } else {
                     Toast.makeText(getApplicationContext(), "Please ensure that the Arduino is in range and powered on.", Toast.LENGTH_SHORT).show();
-                    tryingToConnect = true;
-                    gettingConnection = new GettingConnection();
-                    gettingConnection.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
                 }
             }
         }else {

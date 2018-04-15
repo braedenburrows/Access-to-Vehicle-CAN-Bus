@@ -1,19 +1,19 @@
-#Sun Apr 08 16:24:57 PDT 2018
+#Sun Apr 15 15:49:04 PDT 2018
 renamed.5=classes6.dex
 renamed.4=classes5.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/17
-base.4=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/12
-base.3=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/13
-base.2=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/14
-base.1=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/15
-base.0=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/16
-file.5=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/17/classes.dex
-file.4=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex
-file.3=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/13/classes.dex
-file.2=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex
-file.1=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex
-file.0=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex
+base.5=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/33
+base.4=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/34
+base.3=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/35
+base.2=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/36
+base.1=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/31
+base.0=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/32
+file.5=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/33/classes.dex
+file.4=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/34/classes.dex
+file.3=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/35/classes.dex
+file.2=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/36/classes.dex
+file.1=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/31/classes.dex
+file.0=/Users/Burrows/Desktop/Access_to_Vehicle_CAN-Bus/01-Mobile_App/VehicleDiagnostics/app/build/intermediates/transforms/dexMerger/debug/32/classes.dex
